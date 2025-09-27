@@ -1,0 +1,18 @@
+:root{
+  --bg: #0f172a;
+  --card: #0b1220;
+  --muted: #9ca3af;
+  --accent: #06b6d4;
+}
+body{font-family: Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; background: linear-gradient(180deg,#071028 0%, #021026 100%); color:#e6eef8; margin:0; padding:40px}
+.container{max-width:800px;margin:0 auto;background:rgba(255,255,255,0.03);padding:24px;border-radius:12px}
+label{display:block;margin:10px 0}
+input{padding:8px 10px;border-radius:6px;border:1px solid rgba(255,255,255,0.06);background:transparent;color:inherit}
+.controls{margin:12px 0}
+button{background:var(--accent);color:#002; padding:8px 14px;border-radius:8px;border:none;cursor:pointer}
+.results{list-style:none;padding:0}
+.results li{padding:8px;border-bottom:1px solid rgba(255,255,255,0.03)}
+.results li.ok{color:#7ee787}
+.results li.fail{color:#ff7b7b}
+.stats{display:flex;gap:16px;margin:12px 0}
+.notes{margin-top:20px;color:var(--muted)}
